@@ -1,0 +1,20 @@
+1 . for loop count the number and sum
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout << "Enter the nunber : ";
+    cin >> n;
+    cout << "Count 1 to n " << endl;
+    int sum = 0;
+
+    for (int i = 1; i <= n; i++)
+    {
+        cout << i << endl;
+        sum += i;
+    }
+    cout << "Sum of 1 to " << n << " number :  ";
+    cout << sum << endl;
+}
