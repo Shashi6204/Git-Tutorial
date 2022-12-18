@@ -1,4 +1,4 @@
-1 . for loop count the number and sum
+1 . For loop count the number and sum
 
 #include <iostream>
 using namespace std;
